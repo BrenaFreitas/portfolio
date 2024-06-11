@@ -33,6 +33,21 @@ header a{
   text-decoration: none;
 
   color: aliceblue;
+
+  padding: 10px;
+
+}
+
+header a:hover{
+   
+    background-color:white;
+
+    padding: 10px;
+
+    border-radius: 10px;
+
+    color: black;
+    
 }
 
 
@@ -145,17 +160,17 @@ h1 {
 .CONTACT, .EXPLORE {
 
     display: inline-block; 
-   
-    padding: 10px 15px; 
-  
+
     border: 2px solid violet; 
    
     border-radius: 5px; 
     
     color: violet; 
 
-    margin: 10px;
+}
 
+.CONTACT a:hover{
+    background-color: black;
 }
 
 .Aboutme{
