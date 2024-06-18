@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatar</title>
+    <link rel="stylesheet" href="../css/contatar.css">
+
+</head>
+<body>
+    
+    <header>
+       
+        <a href="index.html">Home</a>
+       
+        <a href="perfil.html">Perfil</a>
+       
+    </header>
+
+    <main>
+
+        <form class="form-contatar">
+
+            <h2>Informações</h2>
+
+            <div class="dados">
+
+                <label for="nome" >Nome</label>
+                <input type="text" name="nome" id="nome">    
+
+            </div>
+            
+            <div class="dados">
+
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email">
+
+            </div>
+            
+            <div class="dados">
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" rows="10" cols="50"></textarea>
+
+            </div>
+            
+            <div class="container-botao">
+
+                <button class="botao-enviar">Enviar</button>
+
+            </div>
+            
+
+        </form>
+
+    </main>
+
+    <div class="opcoes" id="opcoes">
+        <h3 id="pesquisa"> Pesquise por Nome</h3>
+        <input type="text">
+
+        <button class="botao-limpar">Limpar</button>
+    </div>
+
+    <div class="mostrar-mensagem">
+
+        
+        
+        <ul id="ul"></ul>
+        
+    </div>
+
+    <footer>
+
+        <p>&copy; 2024 Brena dos Santos Freitas. Todos os direitos reservados.</p>
+
+    </footer>
+
+    <script src="../js/contatar.js"></script>
+
+</body>
+</html>
