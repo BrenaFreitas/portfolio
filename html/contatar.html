@@ -12,9 +12,7 @@
     <header>
        
         <a href="index.html">Home</a>
-       
-        <a href="perfil.html">Perfil</a>
-       
+              
     </header>
 
     <main>
@@ -52,22 +50,24 @@
 
         </form>
 
+        <div class="opcoes" id="opcoes">
+            <h3 > Pesquise por Nome</h3>
+            <input type="text" id="pesquisa">
+    
+            <button class="botao-pesquisar" onclick="pesquisarPorNome()">Pesquisar</button>
+            <button class="botao-limpar" onclick="limparContatos()">Limpar</button>
+        </div>
+    
+    
+        <div class="mostrar-mensagem">
+            
+            <ul id="ul"></ul>
+            
+        </div>
+
     </main>
 
-    <div class="opcoes" id="opcoes">
-        <h3 id="pesquisa"> Pesquise por Nome</h3>
-        <input type="text">
-
-        <button class="botao-limpar">Limpar</button>
-    </div>
-
-    <div class="mostrar-mensagem">
-
-        
-        
-        <ul id="ul"></ul>
-        
-    </div>
+    
 
     <footer>
 

@@ -218,7 +218,12 @@ h1 {
 
     display: flex;
 
-    flex-direction: row;
+    flex-direction: column;
+
+    justify-content: space-around;
+
+    align-items: flex-end;
+
 }
 
 
@@ -269,15 +274,21 @@ h1 {
     cursor: pointer;
 }
 
+.Contactme {
+
+    margin: 0 10rem 0 100px;
+
+}
 
 .Contact h2 {
 
     color: violet;
 }
 
+
 .SocialMedia{
 
-    margin: 0 auto;
+    margin: 0 10rem 0 100px;
 
 }
 
